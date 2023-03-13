@@ -14,13 +14,15 @@ Project contains a basic configuration for API testing using Karate Framework as
 
 2. Execute following inside karateapitesting (where build.gradle is located)
 
-	`gradle clean`
-	`gradle build`
-	`./gradlew clean --refresh-dependencies`
+	1. `gradle clean`
+
+	2. `gradle build`
+
+	3. `./gradlew clean --refresh-dependencies`
 
 3. Command to execute tests via gradle
 
-	`./gradlew clean test -D karate.options='--tags @mytest'`
+	1. `./gradlew clean test -D karate.options='--tags @mytest'`
 
 
 
